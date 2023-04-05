@@ -1,0 +1,538 @@
+@font-face {
+  font-family: "jost";
+  src: url(../fonts/webfontkit-20230330-080539/jost-variablefont_wght-webfont.woff);
+}
+
+@font-face {
+  font-family: DM Serif Display;
+  src: url(../fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+}
+.qoute {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  background: #ffffff;
+  border-radius: 8px 8px 8px 0px;
+  padding: 5px;
+}
+/*  Navabr */
+.aNavbar {
+  background-color: #fff;
+  padding: 20px 0;
+}
+.logo {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 40px;
+  color: #292f36;
+  line-height: 45px;
+}
+
+.aNavbar li a {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+.aNavbar li a:hover {
+  color: #cda274;
+}
+
+/* Banner.. */
+.banner {
+  margin-top: 80px;
+  position: relative;
+  height: 100vh;
+}
+.bannerImage {
+  border-bottom-left-radius: 15%;
+  height: 90vh;
+}
+
+.innerBanner {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+.innerBanner h1 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+.innerBanner p {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+}
+
+.innerBanner button {
+  font-weight: 600;
+  padding: 20px 48px;
+  border-radius: 18px;
+  font-family: "Jost";
+  font-size: 18px;
+  font-size: 18px;
+  line-height: 125%;
+  background: #292f36;
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+  border-radius: 18px;
+}
+/* Works */
+
+.works {
+  padding: 100px 0;
+}
+
+.works h3 {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+}
+
+.works p {
+  color: #4d5053;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  padding: 10px 0px 20px 0px;
+}
+
+.works a {
+  font-family: "Jost";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #4d5053;
+}
+
+.works a:hover {
+  color: #cda274 !important;
+  cursor: pointer;
+}
+
+/* About  */
+
+.aboutSection p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.callIcon {
+  padding: 18px 22px 12px;
+}
+
+.callIconWrapper {
+  border: 2px solid #cda274;
+  background: #f4f0ec;
+}
+
+.home {
+  border-top-right-radius: 50% 50%;
+  border-bottom-left-radius: 60px;
+  height: 100%;
+  /* width: 100%; */
+}
+
+.aboutSection button {
+  padding: 26px 31px;
+  background: #292f36;
+  box-shadow: 0px 10px 20px rgba(192, 192, 192, 0.35);
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  border-radius: 18px !important;
+}
+.aboutSection button:hover {
+  background-color: #e4c7a9;
+  color: #292f36;
+  border: 0;
+}
+.arrowWrapper {
+  display: inline;
+  background: #f4f0ec;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: auto;
+  display: flex;
+}
+
+.arrowIcon {
+  color: #fff;
+}
+
+.arrowWrapper:hover {
+  background: #cda274;
+  cursor: pointer;
+}
+
+.arrowWrapper a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+/* -----------projects ------- */
+.projects {
+  margin: 150px 0;
+}
+.heading2 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+  margin-bottom: 30px;
+}
+
+.subHeading {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+  letter-spacing: 0.01em;
+}
+
+.projectItem h4 {
+  font-family: "DM Serif Display";
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+.projects span {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  color: #4d5053;
+}
+
+.topRightBorder {
+  border-top-right-radius: 15%;
+}
+
+.topLeftBorder {
+  border-top-left-radius: 15%;
+}
+
+.buttomRightBorder {
+  border-bottom-right-radius: 15%;
+}
+
+.buttomLeftBorder {
+  border-bottom-left-radius: 15%;
+}
+/* ---------counters------- */
+.counter {
+  background-color: #f4f0ec;
+}
+.rightBorder {
+  border-right: 1px solid #cda274;
+}
+
+.counterItems .number {
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  letter-spacing: 0.02em;
+  color: #cda274;
+}
+
+.counterItems .text {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  color: #4d5053;
+}
+
+.mobileNumber {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.callUs {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+/* Blogs */
+.blogs {
+  margin: 130px 0 120px;
+}
+.blogs h5 {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  letter-spacing: 0.02em;
+  color: #292f36;
+  margin-top: 18px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date {
+  white-space: nowrap;
+}
+
+.blogs span {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #4d5053;
+}
+
+.blogs .arrowWrapper {
+  display: inline;
+  background: #f4f0ec;
+  border-radius: 50%;
+}
+
+.blogs .arrowWrapper:hover,
+.secandBlog .arrowWrapper:hover {
+  background-color: #cda274;
+}
+
+.blogs .arrowWrapper a {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  height: 52px;
+  width: 52px;
+}
+
+.secandBlog {
+  background: #f4f0ec;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.25);
+}
+
+.secandBlog .arrowWrapper {
+  background-color: #fff;
+}
+
+/* Footer */
+.footerSection {
+  background: #fbfbfb;
+  padding-top: 43px;
+}
+
+.footerItems {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+.footerItems ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footerItems ul li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+.footerItems h5 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 125%;
+  color: #292f36;
+}
+
+.footerRightSide {
+  width: 36%;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+.footerRightSide p {
+  margin: 20px 0px 30px 0px;
+}
+
+.socialMedia img {
+  padding-right: 54px;
+}
+.socialMedia img:hover {
+  filter: contrast(180%);
+  cursor: pointer;
+}
+
+.socialMedia img:last-child {
+  padding: 0;
+}
+.pages,
+.services {
+  width: 10%;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 300%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+
+.contact {
+  width: 20%;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+}
+.contact ul li {
+  padding: 12px 0;
+}
+
+/* Copyright */
+.copyright p {
+  padding: 40px 0;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  color: #4d5053;
+  margin: 0;
+}
+
+/* Media Query*/
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 992px) {
+  .blogs h5 {
+    font-size: 18px;
+  }
+
+  .banner {
+    height: 100%;
+  }
+
+  .innerBanner {
+    left: 50%;
+    text-align: center;
+  }
+
+  .innerBanner h1 {
+    font-size: 30px;
+  }
+  .innerBanner p {
+    font-size: 22px;
+  }
+
+  .innerBanner button {
+    padding: 10px 20px;
+  }
+
+  .bannerImage {
+    height: 400px;
+  }
+  .aboutSection {
+    text-align: center;
+    margin: auto;
+  }
+  .callSection {
+    justify-content: center !important;
+  }
+
+  /* Footer Media Query*/
+  .footerItems {
+    flex-wrap: wrap;
+    row-gap: 24px;
+  }
+  .socialMedia img {
+    padding-right: 24px;
+  }
+
+  .footerRightSide,
+  .pages,
+  .services,
+  .contact {
+    width: 47%;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .heading2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .rightBorder {
+    border-right: none;
+  }
+
+  .counterItems .number {
+    font-size: 40px;
+  }
+
+  .counterItems .text {
+    font-size: 18px;
+  }
+
+  .copyright p {
+    font-size: 18px;
+  }
+}
